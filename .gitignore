@@ -1,0 +1,9 @@
+# dev
+_chats
+_dev
+_X*
+*.text
+markdown.css
+
+# app
+node_modules
