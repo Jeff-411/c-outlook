@@ -8,8 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jeff-411",
+  "repository": "https://github.com/Jeff-411/c-outlook",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
   }

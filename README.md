@@ -1,9 +1,6 @@
-# Outlook Live A11y
+# See Outlook
 
-This is a new project.
-
-- Project working name: Outlook Live A11y
-- Project alias: Ola
+This is a new project, with a bare-bones file structure.
 
 ## Goal
 
