@@ -14,4 +14,4 @@ Please see the extension's [GitHub repository](https://github.com/luciopaiva/wit
 
 ## Assets
 
-Ola created a dummy Outlook.live account for testing and development purposes. Then (on the page that displays when Outlook initially loads ) it cleaned up the Inbox so that it contains a single email. You can find the source code for this page [here](./public/assets/initial-page-source.txt).
+I created a dummy Outlook.live account for testing and development purposes. Then (on the page that displays when Outlook initially loads ) I cleaned up the Inbox so that it contains a single email. You can find the source code for this page [here](./public/assets/initial-page-source.txt).
