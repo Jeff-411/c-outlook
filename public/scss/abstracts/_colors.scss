@@ -1,0 +1,8 @@
+$u-color-bg: var(--white);
+$u-color-text: var(--black);
+$u-color1: var(--red);
+
+:root {
+  --neutralDark: #{$u-color-text} !important;
+  --neutralPrimarySurface: #{$u-color-bg};
+}

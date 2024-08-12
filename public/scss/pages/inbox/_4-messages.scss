@@ -1,0 +1,40 @@
+// pages - inbox
+
+@import '../../abstracts';
+
+#{$MESSAGES} {
+  transform: scale(2);
+  transform-origin: top left;
+  max-width: 50%;
+  font-family: #{$u-font-family};
+}
+
+#{$message} {
+  padding-left: 4px;
+  padding-right: 0;
+
+  &:hover {
+    border: 2px solid $u-color1;
+    background-color: $u-color-bg !important;
+  }
+}
+
+#{$wrap-persona-sender-notifications} {
+  width: 30% !important;
+
+  * {
+    font-weight: #{$u-fw};
+  }
+
+  #{$persona} {
+    display: none;
+  }
+}
+
+#{$wrap-subject-preview} * {
+  font-weight: #{$u-fw};
+}
+
+#{$wrap-date} {
+  display: none !important;
+}

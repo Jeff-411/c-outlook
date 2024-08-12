@@ -20,7 +20,6 @@ app.use(express.json({ limit: '50mb' }))
 
 app.post('/process-html', async (req, res) => {
   const { html } = req.body
-  // console.log(`\n\n================= /process-html => html: ${html}\n\n`)
 
   const inputFilePath = path.join(process.cwd(), 'temp-input.html')
   const outputFilePath = path.join(process.cwd(), 'temp-output.html')
@@ -29,9 +28,6 @@ app.post('/process-html', async (req, res) => {
     await fs.writeFile(inputFilePath, html, 'utf-8')
     await removeCSSFromHTML(inputFilePath, outputFilePath)
     const processedHtml = await fs.readFile(outputFilePath, 'utf-8')
-
-    console.log(`\n\n================= /process-html => processedHtml: ${processedHtml}\n\n`)
-
     res.json({ processedHtml })
   } catch (error) {
     console.error('Error processing HTML:', error)
